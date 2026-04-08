@@ -97,6 +97,15 @@ MULTIPROJECT:
 - choose_one_subproject_first
 - do_not_mix_subprojects_in_initial_read
 
+DERIVE_REPO_SPECIFIC:
+- fork_this_skill_when_repo_has_hard_read_order
+- fork_this_skill_when_repo_has_exchange_or_protocol_gotchas
+- fork_this_skill_when_repo_has_multi_project_workspace_rules
+- keep_generic_sections: GRAPHIFY PRECHECK MODE FALLBACK NOISE HANDOFF MAINTENANCE
+- override_repo_sections: ROUTING REVIEW_CHECKS DOMAIN_CONSTRAINTS
+- keep_live_repo_state_in_repo_local_files: `graphify-out/AI_REVIEW_ROUTER.md` `graphify-out/AI_ROUTER.md` `graphify-out/AI_INDEX.md`
+- do_not_store_repo_specific_state_in_global_memory
+
 HANDOFF:
 - include_mode
 - include_read_order
